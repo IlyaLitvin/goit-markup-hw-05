@@ -61,7 +61,7 @@
                     Эффективные решения <br />
                     для вашего бизнеса
                 </h1>
-                <button type="button" data-modal-open>Заказать услугу</button>
+                <button type="button" class="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
@@ -134,9 +134,18 @@
             <div class="section-works container">
                 <h2 class="section-name">Чем мы занимаемся</h2>
                 <ul class="works-page">
-                    <li class="works-page-box"><img src="./img/whatwedo/p1.jpg" alt="box" width="370" /></li>
-                    <li class="works-page-box"><img src="./img/whatwedo/p2.jpg" alt="box" width="370" /></li>
-                    <li class="works-page-box"><img src="./img/whatwedo/p3.jpg" alt="box" width="370" /></li>
+                    <li class="works-page-box">
+                        <img src="./img/whatwedo/p1.jpg" alt="box" width="370" />
+                        <p class="our-works-name">Десктопные приложения</p>
+                    </li>
+                    <li class="works-page-box">
+                        <img src="./img/whatwedo/p2.jpg" alt="box" width="370" />
+                        <p class="our-works-name">Мобильные приложения</p>
+                    </li>
+                    <li class="works-page-box">
+                        <img src="./img/whatwedo/p3.jpg" alt="box" width="370" />
+                        <p class="our-works-name">Дизайнерские решения</p>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -344,21 +353,21 @@
                     </li>
                     <li class="clients-list">
                         <a href="#" target="_blank" class="clients-list-link">
-                            <svg class="clients-link-item-t">
+                            <svg width="80" height="42" class="clients-link-item">
                                 <use xlink:href="./img/clients/sprite.svg#icon-logo4" class="clients-item-svg"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list">
                         <a href="#" target="_blank" class="clients-list-link">
-                            <svg class="clients-link-item-y">
+                            <svg width="59" height="47" class="clients-link-item">
                                 <use xlink:href="./img/clients/sprite.svg#icon-logo5" class="clients-item-svg"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-list">
                         <a href="#" target="_blank" class="clients-list-link">
-                            <svg class="clients-link-item-p">
+                            <svg width="80" height="42" class="clients-link-item">
                                 <use xlink:href="./img/clients/sprite.svg#icon-logo6" class="clients-item-svg"></use>
                             </svg>
                         </a>
@@ -422,7 +431,17 @@
         </div>
 
     </footer>
-    <script src="./js/modal.js"></script>
+    <!-- <div class="backdrop" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-btn" data-modal-close>
+                <svg width="18" height="18">
+                    <use xlink:href="./img/social/btn.svg#icon-close-black-18dp"></use>
+                </svg>
+            </button>
+        </div>
+    </div> -->
+    <script src="modal.js">
+    </script>
 </body>
 
 </html>
