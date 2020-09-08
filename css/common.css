@@ -444,4 +444,54 @@ img {
 .button {
   cursor: pointer;
 }
+
+.join-us {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.footer-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-right: 12px;
+  background: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.footer-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  text-align: center;
+  border: 1px solid transparent;
+  display: flex;
+}
+
+.footer-button-svg {
+  fill: var(--primary-white-color);
+  margin-left: 10px;
+}
+
 /* ===========Button=========== */
