@@ -199,7 +199,11 @@ img {
   padding: 0px;
 }
 
-.
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
 
 /* =============section================ */
 
@@ -628,6 +632,7 @@ button {
   margin-right: 12px;
   background: #2f303a;
   color: var(--primary-white-color);
+  padding-left: 16px;
 }
 
 .footer-button {
