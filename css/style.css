@@ -50,7 +50,7 @@ img {
   background-color: var(--box-bg-color);
   margin-bottom: 30px;
 }
-
+/* =============modal window=========== */
 .backdrop {
   position: fixed;
   top: 0;
@@ -63,7 +63,7 @@ img {
 .modal {
   display: flex;
   justify-content: flex-end;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 221px;
   transform: translateX(-50%);
@@ -79,16 +79,18 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
-  margin-top: 8px;
-  margin-right: 8px;
   background-color: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   border-radius: 50%;
 }
-/* header */
+/* =============modal window=========== */
+/* ==============header============= */
 
 .container {
   max-width: 1200px;
@@ -97,14 +99,14 @@ img {
   margin: 0 auto;
 }
 
-/* navigation */
+/* ===============navigation============== */
 
 .head-nav {
   display: flex;
   align-items: center;
 }
 
-/* site-nav */
+/* ==========site-nav========== */
 
 .site-nav {
   display: flex;
@@ -130,7 +132,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 .site-nav .link:hover,
@@ -162,7 +164,7 @@ img {
   color: var(--accent-color);
 }
 
-/* hero */
+/*============= hero ==============*/
 .hero {
   padding: 40px 15px;
   max-width: 1600px;
@@ -367,7 +369,7 @@ img {
   width: 40px;
   height: 40px;
   fill: #afb1b8;
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 .social-item-link:hover,
@@ -413,7 +415,7 @@ img {
   border: 2px solid var(--primary-icon-color);
   border-radius: 6px;
   fill: var(--primary-icon-color);
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 .clients-list-link:hover,
@@ -480,7 +482,7 @@ button:focus {
 
 button {
   cursor: pointer;
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 /* =====================contacts=============== */
@@ -495,12 +497,12 @@ button {
   justify-content: center;
   align-items: center;
   fill: var(--primary-text-color);
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 .contacts-svg {
   margin-right: 10px;
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 .contacts {
@@ -525,7 +527,7 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  transition: all .4s ease; 
+  transition: all 0.4s ease;
 }
 
 .contacts-link:hover,
@@ -601,7 +603,7 @@ button {
   background-color: rgba(255, 255, 255, 0.1);
   width: 40px;
   height: 40px;
-  transition: all .4s ease;  
+  transition: all 0.4s ease;
 }
 
 .footer-social-item-link:hover {
